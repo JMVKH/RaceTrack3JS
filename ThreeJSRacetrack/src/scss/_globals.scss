@@ -1,0 +1,24 @@
+$primary-font: Arial, Helvetica, sans-serif;
+$primary-font-size: 12px;
+$primary-fore-color: rgb(200, 200, 200);
+$primary-back-color: rgb(32, 32, 34);
+$primary-border-color: rgb(64, 64, 66);
+
+$accent-fore-color: rgb(220, 220, 220);
+$accent-fore-color-dark: rgb(160, 160, 160);
+$accent-color: rgb(0, 122, 204);
+$accent-color-dark: rgb(0, 80, 136);
+$accent-border-color: rgb(200, 200, 200);
+$accent-border-color-dark: rgb(120, 120, 120);
+
+$button-font-size: 28px;
+$button-fore-color: rgb(220, 220, 220);
+$button-back-color: rgb(40, 40, 42);
+$button-border-color: $primary-border-color;
+$button-checked-fore-color: $accent-fore-color;
+$button-checked-back-color: $accent-color-dark;
+$button-checked-border-color: $accent-border-color-dark;
+$button-hover-fore-color: $accent-fore-color;
+$button-hover-back-color: $accent-color;
+$button-hover-border-color: $accent-border-color;
+

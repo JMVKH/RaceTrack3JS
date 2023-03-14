@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable = no">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../images/flag.svg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="../css/boxlayout.css">
+    <link rel="stylesheet" type="text/css" href="../css/app.css">
+</head>
+
+<body>
+    <div id="mainPanel">
+        <div class=" hbox">
+            <div class="center" id="renderPanel">
+
+            </div>
+            <div class="east" id="buttonPanel">
+                <div class="vbox">
+                    <div class="north">
+                        <button id="startButton" title="Starte Animation">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="north" style="height:40px">
+                    </div>
+                    <div class="north">
+                        <button id="speedUpButton" title="Geschwindigkeit erhöhen">
+                            +
+                        </button>
+                    </div>
+                    <div class="north">
+                        <button id="speedDownButton" title="Geschwindigkeit verringern">
+                            -
+                        </button>
+                    </div>
+                    <div class="north" style="height:40px">
+                    </div>
+                    <div class="north">
+                        <button id="lightButton" title="Lichtquelle anzeigen">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="north">
+                        <button id="trackButton" title="NURBS-Kurve der Strecke anzeigen">
+                            T
+                        </button>
+                    </div>
+                    <div class="north" style="height:40px">
+                    </div>
+                    <div class="north">
+                        <button id="fullscreenButton" title="Ganzer Bildschirm">
+                            <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../script/three/three.min.js"></script>
+    <script src="../script/three/js/controls/OrbitControls.js"></script>
+    <script src="../script/three/js/loaders/GLTFLoader.js"></script>
+    <script src="../script/three/js/curves/NURBSUtils.js"></script>
+    <script src="../script/three/js/curves/NURBSCurve.js"></script>
+    <script src="../script/index.js"></script>
+</body>
+
+</html>
